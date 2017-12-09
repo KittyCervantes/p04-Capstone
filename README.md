@@ -1,6 +1,3 @@
-Below the link, write 1-2 sentences that describe why your use demonstrates mastery and appropriate use of that requirement. For example, 
-"I created a matrix variable (vector of vector of pixels) to represent an image because images are two-dimensional grids of Red-Green-Blue
-pixel components."
 
 ### input/output
 
@@ -22,13 +19,19 @@ I placed this else statement here because I didn't want the program to use inval
 I used this dowhile because I needed it to keep prompting the user for input as many times as they wished to continue for.
 >[main.cpp lines
 ### data structure
->
-
+>[receipt.h lines 11-14] (/receipt.h#L11)
+I used vectors because I wanted to keep the data, but I needed them to stay seperate.
 ### function
+>[main.cpp lines 9-11] (/main.cpp#L9)
+I used a string return function to receive the user's receipt imputs multiple times, and would return the approriate category.
 >
+>I used a void return function to set up code that I could insert at intervals to catch invalid string types.
+>
+>The final void function just printed out text and the averages of the user's input.
 
 ### file io
->
+>...oops...
 
 ### class
->
+>[receipt.h lines 6-21] (/receipt.h#L6)
+I made a class for receipts because they contain multiple pieces of information. There's variables from the functions in the provate section and the functions themselves in the public one.
