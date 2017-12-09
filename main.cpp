@@ -62,7 +62,7 @@ string imputReceipt(int & yours, int & borrowed)
         cout<<"Was the purchase made with debit or credit?"<<endl;
         cin>>currency;
 
-        if(currency!="debit" && currency!="credit")
+        while(currency!="debit" && currency!="credit")
         {
                 invalidAnswer(currency);
         }
